@@ -98,6 +98,10 @@ h1 {
     margin: 50px;
 }
 
+h3 {
+    color: #505050;
+}
+
 h4 {
     color: #FE9E0D;
 }
@@ -115,16 +119,42 @@ h4 {
     color: white;
 }
 
+.work-container {
+    text-align: center;
+}
+
 .test-container {
     text-align: center;
+    padding: 30px;
 }
 
 .test-card {
     background-color: white;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 400px;
+    margin-right: 400px;
     border-radius: 30px;
     padding: 10px, 0px, 10px, 0px
 
 }
 
+.card-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cards {
+    background: white;
+    height: 250px;
+    width: 15%;
+    text-align: center;
+    margin: 20px;
+    border-radius: 8%;
+}
+
+.card-text {
+    font-size: 12px;
+    margin: 8px;
+}

@@ -24,6 +24,7 @@ const Navbar = ({ homeRef, aboutRef, testRef }) => {
       <div className="nav-container">
         <button onClick={scrollToHome}>Home</button>
         <button onClick={scrollToAbout}>About</button>
+        <button>Work</button>
         <button onClick={scrollToTest}>Testimonials</button>
         <button>Contact</button>
         <AiOutlineShoppingCart className="cart-icon" />
