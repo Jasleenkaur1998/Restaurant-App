@@ -3,6 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Reem Kufi', sans-serif;
+    background-color: #F6F6F6;
 }
 
 .home-container {
@@ -26,11 +27,12 @@ body {
 }
 
 button {
-    border: 1px solid white;
-    background: white;
+    border: 1px solid #F6F6F6;
+    background: #F6F6F6;
     font-family: 'Reem Kufi';
     font-size: 17px;
     font-weight: bold;
+    cursor: pointer;
 
 }
 
@@ -66,6 +68,8 @@ img {
 
 h1 {
     color: #4C4C4C;
+    padding: 0px;
+    margin: 0px;
 }
 
 .order-button {
@@ -84,12 +88,12 @@ h1 {
 .main-content {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 
 .about-container {
     display: flex;
-    gap: 150px;
+    gap: 100px;
     padding: 30px;
     margin: 50px;
 }
@@ -110,3 +114,17 @@ h4 {
     font-weight: bold;
     color: white;
 }
+
+.test-container {
+    text-align: center;
+}
+
+.test-card {
+    background-color: white;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 30px;
+    padding: 10px, 0px, 10px, 0px
+
+}
+

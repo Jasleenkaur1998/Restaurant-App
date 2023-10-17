@@ -3,7 +3,7 @@ import food from "../assets/home-banner-image.png"
 
 const Homepage = forwardRef((props, ref) => {
   return (
-    <div className="main-content-container">
+    <div ref={ref} className="main-content-container">
       <div className="main-content">
         <h1>
           Your favourite food <br />

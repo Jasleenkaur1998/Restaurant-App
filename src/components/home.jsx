@@ -13,7 +13,7 @@ const Home = () => {
       <Navbar aboutRef={aboutRef} homeRef={homeRef} testRef={testRef} />
       <Homepage ref={homeRef} />
       <About ref={aboutRef} />
-      <Testimonials />
+      <Testimonials ref={testRef}/>
     </div>
   )
 }
