@@ -6,10 +6,6 @@ body {
     background-color: #F6F6F6;
 }
 
-.App {
-    padding-bottom: 20px;
-}
-
 .home-container {
     display: flex;
     align-items: center;
@@ -195,4 +191,19 @@ h4 {
     width: 30%;
     font-weight: bold;
     color: white;
+}
+
+.footer-container {
+    padding: 20px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5px;
+    color: #4C4C4C;
+}
+
+.inner-footer-container {
+    display: flex;
+    gap: 40px;
 }
