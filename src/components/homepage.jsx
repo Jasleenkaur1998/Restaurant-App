@@ -1,6 +1,7 @@
+import { forwardRef } from "react"
 import food from "../assets/home-banner-image.png"
 
-const Homepage = () => {
+const Homepage = forwardRef((props, ref) => {
   return (
     <div className="main-content-container">
       <div className="main-content">
@@ -21,6 +22,6 @@ const Homepage = () => {
       </div>
     </div>
   )
-}
+})
 
 export default Homepage

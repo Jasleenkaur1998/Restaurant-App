@@ -14,7 +14,7 @@ body {
 }
 
 .brand-name {
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
     color: #FE9E0D;
 }
@@ -23,9 +23,15 @@ body {
     display: flex;
     align-items: center;
     gap: 30px;
+}
+
+button {
+    border: 1px solid white;
+    background: white;
+    font-family: 'Reem Kufi';
     font-size: 17px;
     font-weight: bold;
-    text-decoration: none;
+
 }
 
 a {
@@ -36,21 +42,20 @@ a {
     font-size: 1.5em;
 }
 
-.booking-button {
+.booking-button button {
     border-radius: 45px;
-    padding: 10px;
-    background-color: white;
-    border: 2px solid #393b40;
-    font-size: 14px;
+    padding: 15px;
+    background-color:#FE9E0D;
+    color: white;
+    font-size: 15px;
     text-align: center;
-    font-weight: bold;
 }
 
 .main-content-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 25%;
+    gap: 20%;
     padding: 30px;
     margin: 50px;
 }
@@ -80,4 +85,28 @@ h1 {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.about-container {
+    display: flex;
+    gap: 150px;
+    padding: 30px;
+    margin: 50px;
+}
+
+h4 {
+    color: #FE9E0D;
+}
+
+.learn-more-button {
+    border-radius: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FE9E0D;
+    border: 2px solid white;
+    font-size: 14px;
+    text-align: center;
+    width: 40%;
+    font-weight: bold;
+    color: white;
 }

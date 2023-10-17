@@ -1,11 +1,19 @@
+import { useRef } from 'react';
 import Navbar from './navbar'
 import Homepage from './homepage'
+import About from './about'
+import Testimonials from './testimonials';
 
 const Home = () => {
+  const homeRef = useRef(null);
+  const aboutRef = useRef(null);
+  const testRef = useRef(null);
   return (
     <div className='container'>
-      <Navbar />
-      <Homepage />
+      <Navbar aboutRef={aboutRef} homeRef={homeRef} testRef={testRef} />
+      <Homepage ref={homeRef} />
+      <About ref={aboutRef} />
+      <Testimonials />
     </div>
   )
 }
