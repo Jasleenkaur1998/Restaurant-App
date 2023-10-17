@@ -1,10 +1,11 @@
 import RestaurantIcon from "@mui/icons-material/Restaurant"
 import PanToolAltIcon from '@mui/icons-material/PanToolAlt'
 import LocalShippingIcon from '@mui/icons-material/LocalShipping'
+import { forwardRef } from "react"
 
-const Work = () => {
+const Work = forwardRef((props, ref) => {
   return (
-    <div className="work-container">
+    <div ref={ref} className="work-container">
       <h4>Work</h4>
       <h1>How It Works</h1>
       <p>
@@ -44,6 +45,6 @@ const Work = () => {
       </div>
     </div>
   )
-}
+})
 
 export default Work
