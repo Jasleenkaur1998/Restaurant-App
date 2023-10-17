@@ -45,3 +45,39 @@ a {
     text-align: center;
     font-weight: bold;
 }
+
+.main-content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25%;
+    padding: 30px;
+    margin: 50px;
+}
+
+img {
+    width: 70vh;
+}
+
+h1 {
+    color: #4C4C4C;
+}
+
+.order-button {
+    border-radius: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FE9E0D;
+    border: 2px solid white;
+    font-size: 14px;
+    text-align: center;
+    width: 40%;
+    font-weight: bold;
+    color: white;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
